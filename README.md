@@ -10,11 +10,11 @@ Prerequisites
 
 Ensure you have the following installed:
 
-•	Java 8 or higher
-•	MySQL
-•	Maven (for building the project)
-•	An IDE like IntelliJ IDEA, Eclipse, or VSCode
-•	Spring Boot Tool Suite (Preferable)
+ 1. Java 8 or higher
+ 2. MySQL
+ 3. Maven (for building the project)
+ 4. An IDE like IntelliJ IDEA, Eclipse, or VSCode
+ 5. Spring Boot Tool Suite (Preferable)
 
 Setup Instructions
 
@@ -24,12 +24,14 @@ cd <filedirectory>
 git clone https://github.com/GajulaPavan/MakerSharksAssignement.git
 
 2. Import the Project
+
 Using IntelliJ IDEA:
 
  1.	Open IntelliJ IDEA.
  2.	Go to File -> New -> Project from Existing Sources....
  3.	Navigate to the project directory and select the root folder.
  4.	IntelliJ should automatically detect it as a Maven or Gradle project. Follow the prompts to finish importing.
+
 Using Spring Boot Tool Suite (Eclipse):
 
  5.	Open Eclipse.
@@ -68,12 +70,12 @@ To connect your project to the MySQL database:
 
 5. Access the Application
 
-Once the application is running, open your browser and go to http://localhost:8080 to access the application.
+   Once the application is running, open your browser and go to http://localhost:8080 to access the application.
 
 Additional Notes
 
-•	Make sure your MySQL server is running when starting the application.
-•	You can customize additional settings in the application.properties or application.yml file as needed.
+	1. Make sure your MySQL server is running when starting the application.
+	2. You can customize additional settings in the application.properties or application.yml file as needed.
 
 Curl Command
 
