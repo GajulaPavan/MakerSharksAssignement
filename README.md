@@ -45,16 +45,21 @@ Using Spring Boot Tool Suite (Eclipse):
 To connect your project to the MySQL database:
 
  1.	Create a MySQL Database:
-  o	Open MySQL Workbench or another MySQL client.
-  o	Execute the following command to create a new database:
-  CREATE DATABASE your_database_name;
+
+  	  Open MySQL Workbench or another MySQL client.
+
+  	  Execute the following command to create a new database:
+     CREATE DATABASE your_database_name;
 
  2.	Update MySQL Credentials:
-  o	In the project, locate the src/main/resources/application.properties or application.yml file.
-  o	Replace the default values with your MySQL credentials:
-   spring.datasource.url=jdbc:mysql://localhost:3306/your_database_name 
-   spring.datasource.username=your_username
-   spring.datasource.password=your_password
+
+  	 In the project, locate the src/main/resources/application.properties or application.yml file.
+    
+  	 Replace the default values with your MySQL credentials:
+
+    spring.datasource.url=jdbc:mysql://localhost:3306/your_database_name 
+    spring.datasource.username=your_username
+    spring.datasource.password=your_password
 
 4. Build and Run the Application
    Using Maven:
