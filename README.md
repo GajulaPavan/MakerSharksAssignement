@@ -54,12 +54,12 @@ To connect your project to the MySQL database:
  2.	Update MySQL Credentials:
 
   	 In the project, locate the src/main/resources/application.properties or application.yml file.
-    
+
   	 Replace the default values with your MySQL credentials:
 
-    spring.datasource.url=jdbc:mysql://localhost:3306/your_database_name 
-    spring.datasource.username=your_username
-    spring.datasource.password=your_password
+    i.   spring.datasource.url=jdbc:mysql://localhost:3306/your_database_name 
+    ii.  spring.datasource.username=your_username
+    iii. spring.datasource.password=your_password
 
 4. Build and Run the Application
    Using Maven:
