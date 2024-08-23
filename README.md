@@ -21,7 +21,7 @@ Setup Instructions
 1. Clone the Repository
 Clone the project to your local machine:
 cd <filedirectory>
-git clone https://github.com/your-username/your-repo-name.git
+git clone https://github.com/GajulaPavan/MakerSharksAssignement.git
 
 2. Import the Project
 Using IntelliJ IDEA:
